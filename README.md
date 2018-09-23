@@ -7,6 +7,10 @@ It would be perfectly possible to poll Verisure's API to get the current arm sta
 
 By using a combination of Verisure hardware and their "smart home" concept, which (among other things) allows for power plugs to be turned on or off when the alarm is disarmed, notifications with only a 2-3 second delay are possible.
 
+![alt text](https://github.com/mountaindude/verisure-armstate-mqtt/raw/master/img/20180922_132155.jpg "The final result, ready to be inserted into 220 V wall outlet.")
+![alt text](https://github.com/mountaindude/verisure-armstate-mqtt/raw/master/img/20180922_132259.jpg "Verisure smart plug and USB power adapter to the left, ESP8266 box to the right.")
+
+
 
 ## Concept
 
@@ -23,7 +27,6 @@ Having a short USB cable (10-15 cm) makes it possible to get a pretty compact un
 
 
 
-![alt text](https://github.com/mountaindude/verisure-armstate-mqtt/raw/master/img/20180922_132155.jpg "The final result, ready to be inserted into 220 V wall outlet.")
 
 
 
