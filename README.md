@@ -16,6 +16,16 @@ By using a combination of Verisure hardware and their "smart home" concept, whic
 4. In order to boot as quickly as possible, the ESP8266 device uses a static IP address rather than DHCP.
 5. The device sends a single MQTT message "ALARM_OFF" when powered up. The message is typically sent within 2-3 seconds, which means that for example home automation devices (lights etc) can take actions immediately when the alarm is disarmed.
 6. When the alarm system is later armed/turned on, the smart plug will turn off. When its power is cut, the ESP8266 device will of course loose contact with the MQTT broker, but as the device registered a LWT (Last Will and Testament) when connecting to the broker, the LWT message will be sent by the broker to the MQTT topic of choice. Note that there is a (up to) 15 second delay before this happens, but this doesn't really matter when it comes to being notified of the alarm being turned on/armed.
+  
+I dug into my random-parts-box and found a small plastic box in which I hotglued an Wemos D1 Mini Lite, with a cut-off USB cable soldered directly onto the pins of the CH340 USB-to-serial chip. 
+Some additional hotglue acts as stress relief for the somewhat small/delicate USB cables.  
+Having a short USB cable (10-15 cm) makes it possible to get a pretty compact unit that is then plugged in as a whole into a wall outlet. As long as the unit is within range from the alarm central unit, it doesn't matter what power outlet is used. I also used some random 220V to USB adapter I had lying around. Any old cell phone charger should work fine.
+
+
+
+![alt text](https://github.com/mountaindude/verisure-armstate-mqtt/raw/master/img/20180922_132155.jpg "The final result, ready to be inserted into 220 V wall outlet.")
+
+
 
 
 ## Needed configuration
