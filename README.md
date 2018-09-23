@@ -9,6 +9,9 @@ By using a combination of Verisure hardware and their "smart home" concept, whic
 
 ![alt text](https://github.com/mountaindude/verisure-armstate-mqtt/raw/master/img/20180922_132155.jpg "The final result, ready to be inserted into 220 V wall outlet.")
 ![alt text](https://github.com/mountaindude/verisure-armstate-mqtt/raw/master/img/20180922_132259.jpg "Verisure smart plug and USB power adapter to the left, ESP8266 box to the right.")
+![alt text](https://github.com/mountaindude/verisure-armstate-mqtt/raw/master/img/20180922_132314.jpg "A standard, unmodified Verisure smart plug is used.")
+![alt text](https://github.com/mountaindude/verisure-armstate-mqtt/raw/master/img/20180922_132438.jpg "All components used.")
+![alt text](https://github.com/mountaindude/verisure-armstate-mqtt/raw/master/img/20180922_132519.jpg "Close-up of soldering USB cables onto CH340 chip and D1 pins.")
 
 
 
