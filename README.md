@@ -27,7 +27,7 @@ By using a combination of Verisure hardware and their "smart home" concept, whic
 I dug into my random-parts-box and found a small plastic box in which I hotglued an Wemos D1 Mini Lite, with a cut-off USB cable soldered directly onto the pins of the CH340 USB-to-serial chip. 
 Some additional hotglue acts as stress relief for the somewhat small/delicate USB cables.  
 
-Having a short USB cable (10-15 cm) makes it possible to get a pretty compact unit with loose cables all around it. The combo (Verisure smart plug, USB adapter, ESP8266 box) is then plugged in as a whole into a wall outlet. As long as the unit is within range from the alarm central unit, it doesn't matter what power outlet is used. I also used some random 220V to USB adapter I had lying around. Any old cell phone charger should work fine.
+Having a short USB cable (10-15 cm) makes it possible to get a pretty compact unit without loose cables all around it. The combo (Verisure smart plug, USB adapter, ESP8266 box) is then plugged in as a whole into a wall outlet. As long as the unit is within range from the alarm system's central unit, it doesn't matter what power outlet is used. I used some random 220V to USB adapter I had lying around, but any old USB cell phone charger should work fine.
 
 
 
